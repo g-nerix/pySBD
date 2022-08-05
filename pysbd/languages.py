@@ -27,6 +27,7 @@ from pysbd.lang.odia import Odia
 from pysbd.lang.tamil import Tamil
 from pysbd.lang.bengali import Bengali
 from pysbd.lang.malayalam import Malayalam
+from pysbd.lang.kannada import Kannada
 
 LANGUAGE_CODES = {
     'en': English,
@@ -56,7 +57,8 @@ LANGUAGE_CODES = {
     'od': Odia,
     'ta': Tamil,
     'bn': Bengali,
-    'ml': Malayalam
+    'ml': Malayalam,
+    'kn': Kannada
 }
 
 class Language(object):

@@ -25,4 +25,5 @@
     'od': Odia,
     'ta': Tamil,
     'bn': Bengali,
-    'ml': Malayalam
+    'ml': Malayalam,
+    'kn': Kannada
