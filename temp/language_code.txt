@@ -24,4 +24,5 @@
     'te': Telugu,
     'od': Odia,
     'ta': Tamil,
-    'bn': Bengali
+    'bn': Bengali,
+    'ml': Malayalam

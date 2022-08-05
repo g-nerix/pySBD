@@ -168,3 +168,9 @@ def ta_default_fixture():
 def bn_default_fixture():
     bn_segmenter = pysbd.Segmenter(language='bn', clean=False, char_span=False)
     return bn_segmenter
+
+
+@pytest.fixture()
+def ml_default_fixture():
+    ml_segmenter = pysbd.Segmenter(language='ml', clean=False, char_span=False)
+    return ml_segmenter
