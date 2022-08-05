@@ -23,4 +23,5 @@
     'sk': Slovak,
     'te': Telugu,
     'od': Odia,
-    'ta': Tamil
+    'ta': Tamil,
+    'bn': Bengali
