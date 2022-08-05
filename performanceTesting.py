@@ -22,13 +22,13 @@ def testHelper(text):
     return: a list of individual sentences.
     """
     print("Running Test...")
-    seg = pysbd.Segmenter(language="te", clean=False)
+    seg = pysbd.Segmenter(language="hi", clean=False)
     return seg.segment(text)
 
 
 def test(lang,install_bool = False,):
     if install_bool:
-        install();
+        install()
 
     file_list = os.listdir(os.path.join("temp",lang,'input'))
     for file in file_list:
@@ -41,6 +41,12 @@ def test(lang,install_bool = False,):
                 f2.write("%s\n" % line)
 
 
+with open('masked.txt','r',encoding='utf8') as f:
+    data = f.readline()
+# testHelper(data)
+f1 = open('C:\\Users\\Shashank\\PycharmProjects\\Reverie\\task_4\\masked_processed.txt','w',encoding='utf8') 
+for line in testHelper(data):
+    f1.write(line+"\n")
 
 # test("te")
 # addLang("od","odia")
